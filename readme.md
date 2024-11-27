@@ -9,6 +9,7 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 > $$
 > を満たす
 
+
 <details>
   <summary style="display: list-item">証明</summary>
 
@@ -30,3 +31,8 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 </details>
 
 こっちは?
+![画像テスト](figure/network.png) この図では
+
+
+アルゴリズムの内部では...
+

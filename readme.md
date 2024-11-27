@@ -11,5 +11,6 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 
 <details>
   <summary>証明</summary>
-   $ax=b$なので
+
+   $ax=b$なのでこれならいける?
 </details>

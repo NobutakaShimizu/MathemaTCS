@@ -16,3 +16,46 @@ pre[class*="language-"] {
 code {
   font-size: 0.9em;
 }
+
+.box-def,
+.box-lem,
+.box-prop,
+.box-thm,
+.box-rem,
+.box-cor {
+  padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
+  margin: 1.25rem 1.25rem 1.25rem 0.3125rem;
+  border: 1px solid #aaa;
+  border-left-width: 0.3125rem;
+  border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
+}
+
+.box-def {
+  background-color: #fafafa;
+  border-left-color: gray;
+}
+
+.box-lem {
+  background-color: #f5fdef;
+  border-left-color: green;
+}
+
+.box-prop {
+  background-color: #f5fdef;
+  border-left-color: green;
+}
+
+.box-thm {
+  background-color: #fff1f0;
+  border-left-color: #c0392b;
+}
+
+.box-rem {
+  background-color: #fafafa;
+  border-left-color: gray;
+}
+
+.box-cor {
+  background-color: #fff5db;
+  border-left-color: #e7ad01;
+}

@@ -10,7 +10,7 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 > を満たす
 
 <details>
-  <summary>証明</summary>
+  <summary style="display: list-item">証明</summary>
 
-   $ax=b$なのでこれならいける?
+   $ax=b$なのでこれならいけるかも分からん.
 </details>

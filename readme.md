@@ -12,5 +12,21 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 <details>
   <summary style="display: list-item">証明</summary>
 
-   $ax=b$なのでこれならいけるかも分からん.
+  $ax=b$なのでこれならいけるかも分からん.
+  マークダウンも使える?
+  **わからん**
+
+  > hoge
+  > $Ax$
+
+  よって
+  $$
+  \begin{align*}
+    ax &= b \\
+    &= c
+  \end{align*}
+  $$
+
 </details>
+
+こっちは?

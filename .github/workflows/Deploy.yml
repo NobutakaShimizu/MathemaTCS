@@ -43,14 +43,8 @@ jobs:
         working-directory: _layouts
         env:
           PATH_PREFIX: /${{ env.REPOSITORY_NAME }}
-      - name: Generate GitHub Apps token
-        id: generate
-        uses: tibdex/github-app-token@v1
-        with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.PRIVATE_KEY }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_layouts/public
-          github_token: ${{ steps.generate.outputs.token }}
+          github_token: ${{ secret.ACCESS_TOKEN }}

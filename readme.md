@@ -1,6 +1,4 @@
-# Foam
-
-👋 Welcome to your new Foam Workspace!
+MathemaTCSへようこそ. このページでは理論計算機科学にまつわる様々なトピックを解説していきます.
 
 ## Getting started
 

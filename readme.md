@@ -1,4 +1,6 @@
-> このページは講義資料のテンプレです.
+# 講義資料テンプレート
+
+> このページは講義資料用のテンプレです. VSCodeのFoamで書いてGithub Pagesで公開できます.
 >
 > 製作者: [清水 伸高](https://sites.google.com/view/nobutaka-shimizu/home)
 

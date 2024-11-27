@@ -54,21 +54,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-mathjax`,
-            options: {
-              // MathJax の設定（必要に応じてカスタマイズ）
-              inlineMath: [['$', '$'], ['\\(', '\\)']],
-              displayMath: [['$$', '$$'], ['\\[', '\\]']],
-            },
-          },
-        ],
-      },
-    },    
-    {
       // this plugin makes sure your static files will be served by gatsby,
       //   but of course you need to reference them by absolute path, e.g. '/assets/img.png'.
       // if you have multiple directories, copy this plugin section and specify other directory

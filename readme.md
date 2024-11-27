@@ -31,7 +31,7 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 </details>
 
 こっちの画像は映る?
-<img src="figure/network.png" width="300px" title="caption test"></img>
+<img src="figure/network.png" width="80%" title="caption test"></img>
 
 
 アルゴリズムの内部では...

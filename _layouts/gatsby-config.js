@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-kb`,
       options: {
-        rootNote: '/index',
+        rootNote: '/readme',
         contentPath: `${__dirname}/..`,
         ignore: [
           '**/_layouts/**',

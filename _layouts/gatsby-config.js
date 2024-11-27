@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-kb`,
       options: {
-        rootNote: '/readme',
+        rootNote: '/index',
         contentPath: `${__dirname}/..`,
         ignore: [
           '**/_layouts/**',
@@ -44,10 +44,16 @@ module.exports = {
           })
 
           // add math support
-          defaultPluginMdx.options.remarkPlugins.push(require('remark-math'))
+          defaultPluginMdx.options.remarkPlugins.push(require('remark-mathjax'))
           if (!defaultPluginMdx.options.rehypePlugins) defaultPluginMdx.options.rehypePlugins = []
-          defaultPluginMdx.options.rehypePlugins.push(require('rehype-katex'))
+//          defaultPluginMdx.options.rehypePlugins.push(require('rehype-katex'))
+
+          //          defaultPluginMdx.options.remarkPlugins.push(require('remark-math'))
+//          if (!defaultPluginMdx.options.rehypePlugins) defaultPluginMdx.options.rehypePlugins = []
+//          defaultPluginMdx.options.rehypePlugins.push(require('rehype-katex'))
+
           return defaultPluginMdx
+
         },
       },
     },

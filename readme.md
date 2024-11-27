@@ -31,7 +31,9 @@ MathemaTCSへようこそ. このページでは理論計算機科学にまつ�
 </details>
 
 こっちは?
-![画像テスト](figure/network.png) この図では
+![画像テスト](figure/network.png "caption test") この図では
+
+<img src="figure/network.png" width="300px" title="caption test">
 
 
 アルゴリズムの内部では...

@@ -15,4 +15,119 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"rbra":{
+		"prefix": "rbra",
+		"body":[
+			"\\left( $1 \\right)"
+		]
+	},
+	"sbra":{
+		"prefix": "sbra",
+		"body":[
+			"\\left[ $1 \\right]"
+		]
+	},
+	"set":{
+		"prefix": "set",
+		"body":[
+			"\\left\\{ $1 \\right\\}"
+		]
+	},
+	"abra":{
+		"prefix": "abra",
+		"body":[
+			"\\left\\langle $1 \\right\\rangle"
+		]
+	},
+	"indicator":{
+		"prefix": "indicator",
+		"body":[
+			"\\mathbf{1}"
+		]
+	},
+	"Nat":{
+		"prefix": "Nat",
+		"body":[
+			"\\mathbb{N}"
+		]
+	},
+	"Real":{
+		"prefix": "Real",
+		"body":[
+			"\\mathbb{R}"
+		]
+	},
+	"Comp":{
+		"prefix": "Comp",
+		"body":[
+			"\\mathbb{C}"
+		]
+	},
+	"binsent":{
+		"prefix": "binset",
+		"body":[
+			"\\{0,1\\}"
+		]
+	},
+	"calA":{
+		"prefix": "calA",
+		"body":[
+			"\\mathcal{A}"
+		]
+	},
+	"calB":{
+		"prefix": "calB",
+		"body":[
+			"\\mathcal{B}"
+		]
+	},
+	"calC":{
+		"prefix": "calC",
+		"body":[
+			"\\mathcal{C}"
+		]
+	},
+	"calD":{
+		"prefix": "calD",
+		"body":[
+			"\\mathcal{D}"
+		]
+	},
+	"calE":{
+		"prefix": "calE",
+		"body":[
+			"\\mathcal{E}"
+		]
+	},
+	"calF":{
+		"prefix": "calF",
+		"body":[
+			"\\mathcal{F}"
+		]
+	},
+	"calG":{
+		"prefix": "calG",
+		"body":[
+			"\\mathcal{G}"
+		]
+	},
+	"calH":{
+		"prefix": "calH",
+		"body":[
+			"\\mathcal{H}"
+		]
+	},
+	"calI":{
+		"prefix": "calI",
+		"body":[
+			"\\mathcal{I}"
+		]
+	},
+	"calJ":{
+		"prefix": "calJ",
+		"body":[
+			"\\mathcal{J}"
+		]
+	},
+
 }

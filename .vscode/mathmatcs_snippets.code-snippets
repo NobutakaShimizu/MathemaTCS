@@ -30,13 +30,35 @@
 	"set":{
 		"prefix": "set",
 		"body":[
-			"\\left\\{ $1 \\right\\}"
+			"\\left\\{ $1 \\right\\\\}"
 		]
 	},
 	"abra":{
 		"prefix": "abra",
 		"body":[
 			"\\left\\langle $1 \\right\\rangle"
+		]
+	},
+	"eps":{
+		"prefix": "eps",
+		"body":[
+			"\\varepsilon"
+		]
+	},
+	"dist":{
+		"prefix": "dist",
+		"body": [
+			"\\mathrm{dist}"
+		]
+	},
+	"proof":{
+		"prefix": "proof",
+		"body": [
+			"<details>",
+			"<summary style=\"display: list-item\">証明</summary>",
+			"",
+			"$1",
+			"</details>"
 		]
 	},
 	"indicator":{
@@ -67,6 +89,18 @@
 		"prefix": "binset",
 		"body":[
 			"\\{0,1\\}"
+		]
+	},
+	"subset":{
+		"prefix": "subset",
+		"body": [
+			"\\subseteq"
+		]
+	},
+	"image":{
+		"prefix": "image",
+		"body":[
+			"<center><img src=\"figure/$1\" width=\"240pt\"></img></center>"
 		]
 	},
 	"calA":{
